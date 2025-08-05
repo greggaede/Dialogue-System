@@ -1,0 +1,6 @@
+:root {
+    --dialogue-background-color: #1e1e1e;
+    --dialogue-text-color: white;
+    --dialogue-accent-color: #ffcc00;
+    --dialogue-font-size: 16px;
+}

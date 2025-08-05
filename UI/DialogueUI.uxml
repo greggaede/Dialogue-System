@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/DialogueSystem/UI/DialogueUI.uss?fileID=7433441132597879392&amp;guid=f3d74293e9c079e4da82813aa8088f58&amp;type=3#DialogueUI" />
+    <ui:VisualElement name="DialogueContainer" style="flex-direction: column; padding: 10px;">
+        <ui:Label name="SpeakerName" class="speaker-name" />
+        <ui:VisualElement name="AvatarContainer" style="height: 100px; width: 100px;" />
+        <ui:Label name="DialogueText" class="dialogue-text" />
+        <ui:VisualElement name="OptionsContainer" style="flex-direction: column; margin-top: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>
